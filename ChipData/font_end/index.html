@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ECharts</title>
+    <script src="assets/js/echarts.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+<!--    <script src="assets/js/echarts.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+
+<!--背景-->
+<div>
+    <img src="assets/picture/bg.png" id="bg">
+</div>
+
+<!--头部-->
+<div id="head">
+    <h2>南方科技大学 芯片制造价值链因果推断平台</h2>
+</div>
+
+<!--设置空行-->
+<br>
+
+<div class="col1" id="left1" style="width: 400px;height:250px;"></div>
+<div class="col1" id="mid1" style="width: 400px;height:250px;"></div>
+<div class="col1" id="right1" style="width: 400px;height:200px;"></div>
+
+<div class="col2" id="right2" style="width: 420px;height:200px;padding-top: 20px">
+    <table>
+        <tr>
+            <th>id</th>
+            <th>model</th>
+            <th>kernel</th>
+            <th>frequency</th>
+        </tr>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+</div>
+<div class="col2" id="mid2" style="width: 400px;height:250px;"></div>
+<div class="col2" id="left2" style="width: 400px;height:250px;"></div>
+
+<!--设置空行-->
+<br>
+
+<script type="text/javascript">
+    setLeftTopChart();
+    setMidTopChart();
+    setRightTopChart();
+    setLeftBottomChart();
+    setMidBottomChart();
+    setRightBottomChart();
+</script>
+
+</body>
+</html>

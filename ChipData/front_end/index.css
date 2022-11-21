@@ -60,7 +60,7 @@ td {
 
 #right1{
     position: absolute;
-    left: 910px;
+    left: 860px;
     top: 100px;
 }
 
@@ -78,8 +78,26 @@ td {
 
 #right2{
     position: absolute;
-    left: 910px;
+    left: 860px;
     top: 350px;
+}
+
+#left3{
+    position: absolute;
+    left: 10px;
+    top: 650px;
+}
+
+#mid3{
+    position: absolute;
+    left: 460px;
+    top: 650px;
+}
+
+#right3{
+    position: absolute;
+    left: 860px;
+    top: 650px;
 }
 
 #bg{

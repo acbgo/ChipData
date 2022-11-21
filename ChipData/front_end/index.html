@@ -24,11 +24,17 @@
 <!--设置空行-->
 <br>
 
-<div class="col1" id="left1" style="width: 400px;height:250px;"></div>
-<div class="col1" id="mid1" style="width: 400px;height:250px;"></div>
-<div class="col1" id="right1" style="width: 400px;height:200px;"></div>
+<div id="left1" style="width: 400px;height:250px;"></div>
+<div id="mid1" style="width: 400px;height:250px;"></div>
+<div id="right1" style="width: 400px;height:200px;"></div>
 
-<div class="col2" id="right2" style="width: 420px;height:200px;padding-top: 20px">
+<div id="left2" style="width: 400px;height:290px;"></div>
+<div id="mid2" style="width: 400px;height:250px;">
+    <img src="assets/picture/chip.png" id="chip">
+</div>
+<div id="right2" style="width: 400px;height:290px;"></div>
+
+<div id="right3" style="width: 420px;height:200px;padding-top: 20px">
     <table>
         <tr>
             <th>id</th>
@@ -41,8 +47,8 @@
         </tbody>
     </table>
 </div>
-<div class="col2" id="mid2" style="width: 400px;height:250px;"></div>
-<div class="col2" id="left2" style="width: 400px;height:250px;"></div>
+<div id="mid3" style="width: 400px;height:250px;"></div>
+<div id="left3" style="width: 400px;height:250px;"></div>
 
 <!--设置空行-->
 <br>
@@ -51,6 +57,11 @@
     setLeftTopChart();
     setMidTopChart();
     setRightTopChart();
+
+    setLeftMidChart();
+    setMidMidChart();
+    setRightMidChart();
+
     setLeftBottomChart();
     setMidBottomChart();
     setRightBottomChart();

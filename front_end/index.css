@@ -40,7 +40,7 @@ th {
 td {
     border: 1px solid black;
     padding: 8px;
-    background-color: lightblue;
+    background-color: #214754;
     text-align: center;
 // 更加灵活的位置摆放参考flex布局
     font-size: 8px;
@@ -80,6 +80,8 @@ td {
     position: absolute;
     left: 860px;
     top: 370px;
+    font-size: 10px;
+    color: #fff;
 }
 
 #left3{

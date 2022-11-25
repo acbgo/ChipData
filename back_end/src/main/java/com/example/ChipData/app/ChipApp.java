@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/chip")
@@ -13,6 +14,8 @@ public class ChipApp {
 
     @Autowired
     ChipService chipService;
+    @Autowired
+    DeviceService deviceService;
     @Autowired
     ProductionService productionService;
     @Autowired
@@ -53,15 +56,27 @@ public class ChipApp {
         return chipService.findAllChip();
     }
 
+    @GetMapping("/getDevices")
+    public List<Devices> getDevices(){
+        return deviceService.getDevices();
+    }
+
     @GetMapping("/getProduction")
     public List<Production> getProductions(){
         return productionService.getProductions();
     }
 
+
     @GetMapping("/getFailure")
     public List<Failure> getFailures(){
         return failureService.getFailures();
     }
+
+    @GetMapping("/getProcessing")
+    public List<Map<Integer, Integer>> getProcessingCnt(){
+        return failureService.getProcessing();
+    }
+
 
     @GetMapping("/getFactors")
     public List<Factor> getFactors(){

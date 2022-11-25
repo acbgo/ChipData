@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+
+#head{
+    height: 80px;
+    position: relative;
+    padding-top: 2px;
+    font-size: 20px;
+    color: #00ffff;
+    text-align: center;
+    background: url(./assets/picture/head.png) top center no-repeat;
+}
+
+body{
+    background: #040f3c;
+}
+
+/*.col1 {*/
+/*    float: left;*/
+/*    width: 33%;*/
+/*}*/
+
+/*.col2 {*/
+/*    float: right;*/
+/*    width: 33%;*/
+/*}*/
+
+table {
+    border: 2px solid rgba(108, 146, 243, 0.34);
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+}
+th {
+    border: 2px solid rgba(108, 146, 243, 0.34);
+    padding: 8px;
+    background-color: darkturquoise;
+    text-align: center;
+    font-size: 15px;
+}
+td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: lightblue;
+    text-align: center;
+// 更加灵活的位置摆放参考flex布局
+    font-size: 8px;
+}
+
+#left1{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+
+#mid1{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+
+#right1{
+    position: absolute;
+    left: 860px;
+    top: 100px;
+}
+
+#left2{
+    position: absolute;
+    left: 10px;
+    top: 350px;
+}
+
+#mid2{
+    position: absolute;
+    left: 460px;
+    top: 350px;
+}
+
+#right2{
+    position: absolute;
+    left: 860px;
+    top: 370px;
+}
+
+#left3{
+    position: absolute;
+    left: 10px;
+    top: 650px;
+}
+
+#mid3{
+    position: absolute;
+    left: 460px;
+    top: 650px;
+}
+
+#right3{
+    position: absolute;
+    left: 860px;
+    top: 650px;
+}
+
+#bg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    opacity: 30%;
+}

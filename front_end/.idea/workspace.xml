@@ -1,49 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fbe8556-a774-498f-9cf7-b1e963717c19" name="Changes" comment="" />
+    <list default="true" id="d6857d9f-f788-44b5-8286-49cf7d7b0640" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HW5uOiaiaxV6Iqcdta9BIGTMCw" />
+  <component name="ProjectId" id="2ITgvHVWZOIePRoo0BEN9qLo8W1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/OneDrive - 南方科技大学/大学/4 大三上/1 创新实践/routine/week8/前端/font&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/OneDrive - 南方科技大学/大学/4 大三上/1 创新实践/ChipData/front/src/assets/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "ts.external.directory.path": "D:\\softwareforstudy\\WebStorm\\install\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - 南方科技大学\大学\4 大三上\1 创新实践\ChipData\front\src\assets\img" />
+      <recent name="E:\OneDrive - 南方科技大学\大学\4 大三上\1 创新实践\ChipData\front\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\OneDrive - 南方科技大学\大学\4 大三上\1 创新实践\routine\week8\前端\font" />
-      <recent name="E:\OneDrive - 南方科技大学\大学\4 大三上\1 创新实践\routine\week8\前端\font\assets\js" />
+      <recent name="E:\OneDrive - 南方科技大学\大学\4 大三上\1 创新实践\ChipData\front\src\assets\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4fbe8556-a774-498f-9cf7-b1e963717c19" name="Changes" comment="" />
-      <created>1668388221054</created>
+      <changelist id="d6857d9f-f788-44b5-8286-49cf7d7b0640" name="Changes" comment="" />
+      <created>1670211215476</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668388221054</updated>
-      <workItem from="1668388222605" duration="8165000" />
-      <workItem from="1668405814824" duration="241000" />
-      <workItem from="1668406075894" duration="1073000" />
-      <workItem from="1668408568115" duration="13000" />
-      <workItem from="1668431363180" duration="1097000" />
-      <workItem from="1668519262212" duration="1652000" />
+      <updated>1670211215476</updated>
+      <workItem from="1670211217013" duration="13744000" />
+      <workItem from="1670237434478" duration="6130000" />
+      <workItem from="1670310461755" duration="1159000" />
     </task>
     <servers />
   </component>
